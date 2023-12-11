@@ -8,7 +8,10 @@ i{
         color: darkred;
         font-size: 30px ;
 }
-
+h2,h3,h4,h5{
+        color: darkred;
+        font-family:  'Rajdhani', sans-serif;
+}
 
 
 .barraCust{
@@ -21,27 +24,22 @@ i{
 
 
 .logoCustom{
-
-       
+        
+        
         display: flex;
         justify-content: center;
 }
-/* .linkCustom{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        background-color: blue;
-} */
+
 .linkCustm{
-       
+        
         display: flex;
         justify-content: space-evenly;
 }
 a{
         text-decoration: none;
         color: grey;
-
-
+        
+        
 }
 
 .containerCustom{
@@ -57,7 +55,7 @@ a{
         letter-spacing: 30px;
         color: darkred;
         font-weight: 500;
-
+        
 }
 
 .montagnebianche{
@@ -72,4 +70,120 @@ a{
 
 body{
         background: rgba(236,236,236,255);
+        overflow-x: hidden;
+}
+.ContainerCustMW{
+        height: 100vh;
+        position: relative;
+}
+
+.alberibianchi{
+        position: absolute;
+        
+        bottom: -48px;
+        left: -70px;
+}
+.bottonecust{
+        border: 2px solid darkred;
+        border-radius: 0%;
+        background-color: darkred;
+        color: rgba(236,236,236,255);
+}
+
+.provabordi{
+        border-left: 3px solid darkred;
+        
+}
+.circle{
+        width: 15px;
+        background-color: white;
+        height: 15px;
+        border: 3px solid darkred;
+        border-radius: 50px;
+        position: relative;
+        left: -20px;
+}
+.cerchio{
+        width: 15px; 
+        height: 15px; 
+        background-color: white;
+        border: 3px solid darkred;
+        border-radius: 50px;
+        position: relative;
+        left: -20px;
+        top: 55px;
+}
+.cerchio2{
+        width: 15px; 
+        height: 15px; 
+        background-color: white;
+        border: 3px solid darkred;
+        border-radius: 50px;
+        position: relative;
+        left: -20px; 
+        top: 60px;
+}
+.cerchio3{
+        width: 15px; 
+        height: 15px; 
+        background-color: white;
+        border: 3px solid darkred;
+        border-radius: 50px;
+        position: relative;
+        left: -20px; 
+        top: 65px;
+}
+.colorBack{
+        background-color: white;
+}
+.scrittaprova{
+        position: relative;
+        left: 100px;
+        top: 60px;
+}
+
+.alberiGrigi{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+}
+.scrittasezz5{
+        position: relative;
+        left: 100px;
+        top: 20px;
+}
+.immOurteam{
+        height: 120px;
+        width: 120px; 
+        border-radius: 50%;
+        border: 2px solid darkred;
+        padding: 3px;
+       
+        
+}
+.social{
+        
+       width: 100%;
+       justify-content: space-evenly;
+       
+        
+}
+
+.fotoSezz6{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        padding: 3px;
+        border: 2px solid darkred;
+}
+.fineSito{
+        background-color: darkred;
+       
+        top: -200px;
+}
+.scrittasezz7{
+        color: white;
+}
+ol{
+        color: white; 
 }
